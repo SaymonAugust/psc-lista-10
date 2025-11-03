@@ -1,0 +1,29 @@
+public class Casa {
+    String endereco;
+    String cor;
+    double tamanho;
+    int numeroComodos;
+
+    public Casa(String endereco, String cor, double tamanho, int numeroComodos) {
+        this.endereco = endereco;
+        this.cor = cor;
+        this.tamanho = tamanho;
+        this.numeroComodos = numeroComodos;
+    }
+
+    public void abrirPorta() {
+        System.out.println("A porta foi aberta.");
+    }
+
+    public void fecharJanela() {
+        System.out.println("As janelas foram fechadas.");
+    }
+
+    public void acenderLuzes() {
+        System.out.println("As luzes estão acesas.");
+    }
+
+    public void apagarLuzes() {
+        System.out.println("As luzes foram apagadas.");
+    }
+}
