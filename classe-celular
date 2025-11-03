@@ -1,0 +1,29 @@
+public class Celular {
+    String marca;
+    String modelo;
+    int capacidade;
+    String cor;
+
+    public Celular(String marca, String modelo, int capacidade, String cor) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.capacidade = capacidade;
+        this.cor = cor;
+    }
+
+    public void ligar() {
+        System.out.println("O celular está ligado.");
+    }
+
+    public void tirarFoto() {
+        System.out.println("Foto tirada com sucesso!");
+    }
+
+    public void enviarMensagem() {
+        System.out.println("Mensagem enviada.");
+    }
+
+    public void reproduzirMusica() {
+        System.out.println("Tocando música...");
+    }
+}
