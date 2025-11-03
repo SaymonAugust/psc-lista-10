@@ -1,0 +1,29 @@
+public class Restaurante {
+    String nome;
+    String endereco;
+    String tipoCulinaria;
+    int capacidade;
+
+    public Restaurante(String nome, String endereco, String tipoCulinaria, int capacidade) {
+        this.nome = nome;
+        this.endereco = endereco;
+        this.tipoCulinaria = tipoCulinaria;
+        this.capacidade = capacidade;
+    }
+
+    public void servirPrato() {
+        System.out.println("Prato servido com sucesso!");
+    }
+
+    public void receberPagamento() {
+        System.out.println("Pagamento recebido.");
+    }
+
+    public void prepararPedido() {
+        System.out.println("Preparando pedido...");
+    }
+
+    public void fecharConta() {
+        System.out.println("Conta fechada com sucesso.");
+    }
+}
