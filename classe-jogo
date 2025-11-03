@@ -1,0 +1,29 @@
+public class Jogo {
+    String titulo;
+    String genero;
+    String plataforma;
+    int numeroJogadores;
+
+    public Jogo(String titulo, String genero, String plataforma, int numeroJogadores) {
+        this.titulo = titulo;
+        this.genero = genero;
+        this.plataforma = plataforma;
+        this.numeroJogadores = numeroJogadores;
+    }
+
+    public void iniciar() {
+        System.out.println("Jogo iniciado!");
+    }
+
+    public void pausar() {
+        System.out.println("Jogo pausado.");
+    }
+
+    public void salvarProgresso() {
+        System.out.println("Progresso salvo!");
+    }
+
+    public void finalizar() {
+        System.out.println("Jogo finalizado.");
+    }
+}
