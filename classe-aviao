@@ -1,0 +1,29 @@
+public class Aviao {
+    String companhia;
+    String modelo;
+    int capacidade;
+    String cor;
+
+    public Aviao(String companhia, String modelo, int capacidade, String cor) {
+        this.companhia = companhia;
+        this.modelo = modelo;
+        this.capacidade = capacidade;
+        this.cor = cor;
+    }
+
+    public void decolar() {
+        System.out.println("O avião decolou!");
+    }
+
+    public void pousar() {
+        System.out.println("O avião pousou com sucesso.");
+    }
+
+    public void aumentarAltitude() {
+        System.out.println("Subindo altitude...");
+    }
+
+    public void reduzirVelocidade() {
+        System.out.println("Reduzindo velocidade.");
+    }
+}
